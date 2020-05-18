@@ -1,0 +1,137 @@
+[
+  {
+    "name": "Mindset, binnenwereld",
+    "subCategory": [
+      {
+        "subjectRank": "1",
+        "subject": "Vertrouwen",
+        "answers": [
+          {
+            "rank": "1",
+            "answer": "Ik vertrouw op mensen die een sterke positie hebben"
+          },
+          {
+            "rank": "2",
+            "answer": "Ik vertrouw op regels en op de hiërarchie"
+          },
+          {
+            "rank": "3",
+            "answer": "Ik vertrouw op ieders capaciteiten en dat de beste /het beste wint"
+          },
+          {
+            "rank": "4",
+            "answer": "We vertrouwen op ieders inbreng in de groep"
+          },
+          {
+            "rank": "5",
+            "answer": "Er is vertrouwen op wat er wil gebeuren (de evolutionaire impuls)"
+          }
+        ]
+      },
+      {
+        "subjectRank": "2",
+        "subject": "Angst",
+        "answers": [
+          {
+            "rank": "1",
+            "answer": "Mijn grootste angst is willekeur en afgeserveerd te worden"
+          },
+          {
+            "rank": "2",
+            "answer": "Mijn grootste angst is fouten te maken en mijn positie te verliezen"
+          },
+          {
+            "rank": "3",
+            "answer": "Mijn grootste angst is mislukking en falen"
+          },
+          {
+            "rank": "4",
+            "answer": "Mijn grootste angst is afgewezen te worden"
+          },
+          {
+            "rank": "5",
+            "answer": "Angst is niet iets om bang voor te zijn, angst is een kans"
+          }
+        ]
+      },
+      {
+        "subjectRank": "3",
+        "subject": "Houding in contact",
+        "answers": [
+          {
+            "rank": "1",
+            "answer": "Ik verdedig mijn belangen"
+          },
+          {
+            "rank": "2",
+            "answer": "Ik houd rekening met de hiërarchische verhoudingen"
+          },
+          {
+            "rank": "3",
+            "answer": "Ik ben resultaatgericht en ga strategisch te werk"
+          },
+          {
+            "rank": "4",
+            "answer": "Ik leef me in en houd rekening met de ander"
+          },
+          {
+            "rank": "5",
+            "answer": "Ik wil de ander en wat er verder in het geheel meespeelt begrijpen (heelheid)"
+          }
+        ]
+      },
+      {
+        "subjectRank": "4",
+        "subject": "Drijfveren",
+        "answers": [
+          {
+            "rank": "1",
+            "answer": "Het belangrijkste is om sterk te zijn en kansen te pakken"
+          },
+          {
+            "rank": "2",
+            "answer": "Het gaat om zekerheid"
+          },
+          {
+            "rank": "3",
+            "answer": "De focus is succes boeken en zaken verbeteren"
+          },
+          {
+            "rank": "4",
+            "answer": "Het gaat om gelijkheid en rechtvaardigheid"
+          },
+          {
+            "rank": "5",
+            "answer": "Het gaat erom een bijdrage te leveren en de wereld vitaler te maken"
+          }
+        ]
+      },
+      {
+        "subjectRank": "5",
+        "subject": "Zelfbewustzijn",
+        "answers": [
+          {
+            "rank": "1",
+            "answer": "Gedachten en gevoelens zijn niet belangrijk, je doet zoals je doet"
+          },
+          {
+            "rank": "2",
+            "answer": "Gedachten en gevoelens zijn ondergeschikt aan het vervullen van de functie"
+          },
+          {
+            "rank": "3",
+            "answer": "Zelfreflectie op gedachten, gericht op zelfverbetering"
+          },
+          {
+            "rank": "4",
+            "answer": "Zelfreflectie op gevoelens en gedachten, gericht op persoonlijke ontwikkeling"
+          },
+          {
+            "rank": "5",
+            "answer": "Intuïtieve intelligentie, ten behoeve van de ontwikkeling van hele systeem"
+          }
+        ]
+      }
+    ]
+  }
+]

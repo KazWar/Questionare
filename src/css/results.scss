@@ -1,0 +1,23 @@
+.subject-color{
+  background: #b2d8d8;
+}
+
+.sticky-header{
+  height: 100%;
+
+  .q-table__top,
+  .q-table__bottom,
+  thead tr:first-child th {
+    background-color: #66b2b2
+  }
+
+  thead tr th{
+    position: sticky;
+    z-index: 1;
+    font-size: large;
+  }
+
+  thead tr:first-child th {
+    top: 0
+  }
+}

@@ -7,8 +7,20 @@ export default {
 </script>
 
 <template>
-  <div class="q-pa-lg"> <!-- class shorthand syntax, stands for: quasar padding-all large -->
+  <div class="q-pa-lg">
+    <label style="white-space:pre-wrap">
     Home
+
+    Company will be selected here, navigation bar then changes.
+
+    List:
+    Company 1
+    Company 2
+      team 1
+      team 2
+    Company 3
+      team 3
+    </label>
   </div>
 </template>
 

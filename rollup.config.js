@@ -3,8 +3,10 @@ import vue from 'rollup-plugin-vue'
 import html from 'rollup-plugin-html'
 import scss from 'rollup-plugin-scss'
 import copy from 'rollup-plugin-copy'
+import json from 'rollup-plugin-json'
 import serve from 'rollup-plugin-serve'
 import livereload from 'rollup-plugin-livereload'
+import image from '@rollup/plugin-image'
 
 /**
  * HTTP port for running UI dev server
@@ -29,14 +31,15 @@ const configuration = {
    * Application runtime
    */
   output: {
-    name: 'Flooid',
+    name: 'Fluid',
     file: 'dist/index.js',
     format: 'iife',
     sourcemap: true,
     globals: {
       vue: 'Vue',
       vuex: 'Vuex',
-      axios: 'axios'
+      axios: 'axios',
+      uuidv4: 'uuidv4'
     }
   },
 
@@ -66,6 +69,9 @@ const configuration = {
     html(),
     // Enable imports of CSS and SCSS
     scss(),
+    image(),
+    // Enable importing of JSON files as JS modules
+    json(),
     // Copy runtime files to /dev folder
     copy({
       targets: [
@@ -100,7 +106,8 @@ const configuration = {
     'vue',
     'vuex',
     'axios',
-    'quasar'
+    'quasar',
+    'uuidv4'
   ]
 }
 
