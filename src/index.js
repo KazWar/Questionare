@@ -4,16 +4,32 @@ import Home from './pages/home.vue'
 import Results from './pages/results.vue'
 import Summary from './pages/summary.vue'
 import Survey from './pages/survey.vue'
+import { Session } from './services/index'
 
 // Switch off production mode, for meaningful errors during dev
 Vue.config.productionTip = false
 
 // Application routes
 const routes = [
-  { path: '/', component: Home },
-  { path: '/results', component: Results },
-  { path: '/summary', component: Summary },
-  { path: '/survey', component: Survey }
+    {
+      path: '/',
+      component: Home
+    },
+    {
+      path : '/survey',
+      component: Survey,
+      meta: { requiresAuth : false }
+    },
+    {
+      path: '/results',
+      component: Results ,
+      meta: { requiresAuth : true }
+    },
+    {
+      path: '/summary',
+      component: Summary ,
+      meta: { requiresAuth : true }
+    }
 ]
 
 /**
@@ -22,6 +38,18 @@ const routes = [
  */
 window.addEventListener('load', () => {
   const router = new VueRouter({routes})
+
+  router.beforeEach((to, from, next) => {
+    if (to.matched.some((record) => record.meta.requiresAuth)) {
+      if (!Session.isLoggedIn) {
+        next('/')
+      }
+    } else {
+      next()
+    }
+  })
+
+
   const app = new Vue({router, render: (h) => h(App)})
   app.$mount('#app')
 })

@@ -1,7 +1,14 @@
 <script>
+import { Session } from '../services'
 
 export default {
-  name: 'Home'
+  name: 'Home',
+
+  methods: {
+    logout () {
+      Session.logout()
+    }
+  }
 }
 
 </script>
@@ -20,6 +27,8 @@ export default {
       team 2
     Company 3
       team 3
+
+
     </label>
   </div>
 </template>

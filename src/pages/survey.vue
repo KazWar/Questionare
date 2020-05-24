@@ -45,8 +45,6 @@
 </script>
 
 
-
-
 <template>
   <div>
     <div class="q-pa-lg" style="background-color: #00cdcd; text-align: center">
