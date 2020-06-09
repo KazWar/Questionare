@@ -6,7 +6,7 @@ import copy from 'rollup-plugin-copy'
 import json from 'rollup-plugin-json'
 import serve from 'rollup-plugin-serve'
 import livereload from 'rollup-plugin-livereload'
-import image from '@rollup/plugin-image'
+//import image from '@rollup/plugin-image'
 
 /**
  * HTTP port for running UI dev server
@@ -39,7 +39,10 @@ const configuration = {
       vue: 'Vue',
       vuex: 'Vuex',
       axios: 'axios',
-      uuidv4: 'uuidv4'
+      // Left side is a module name, JS file name
+      // Right side is ... a JS object which contains
+      // everything that the module exports.
+      'chart.js': 'Chart'
     }
   },
 
@@ -69,7 +72,7 @@ const configuration = {
     html(),
     // Enable imports of CSS and SCSS
     scss(),
-    image(),
+    //image(),
     // Enable importing of JSON files as JS modules
     json(),
     // Copy runtime files to /dev folder
@@ -77,7 +80,9 @@ const configuration = {
       targets: [
         { src: './package.json', dest: 'dist' },
         { src: './README.md', dest: 'dist' },
-        { src: './src/index.html', dest: 'dist' }
+        { src: './src/index.html', dest: 'dist' },
+        { src: './src/configuration.js', dest: 'dist' },
+        { src: './src/assets', dest: 'dist'}
       ]
     }),
     // Dev server if build in watch mode
@@ -107,7 +112,7 @@ const configuration = {
     'vuex',
     'axios',
     'quasar',
-    'uuidv4'
+    'chart.js'
   ]
 }
 

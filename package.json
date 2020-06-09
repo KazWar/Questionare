@@ -46,6 +46,6 @@
   "dependencies": {
     "@rollup/plugin-image": "^2.0.4",
     "axios": "^0.19.2",
-    "uuid": "^8.0.0"
+    "chart.js": "^2.9.3"
   }
 }

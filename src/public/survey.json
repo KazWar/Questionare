@@ -133,5 +133,545 @@
         ]
       }
     ]
+  },
+  {
+    "name": "Kennis, kunde engedrag",
+    "subCategory": [
+      {
+        "subjectRank": "6",
+        "subject": "Leiderschapsstijl",
+        "range": [
+          1,
+          5
+        ],
+        "answers": [
+          {
+            "code": "answer-1",
+            "answer": "Taken uitdelen en controleren of het gedaan is",
+            "rank": 1
+          },
+          {
+            "code": "answer-2",
+            "answer": "Duidelijke instructies en opdrachten geven",
+            "rank": 2
+          },
+          {
+            "code": "answer-3",
+            "answer": "Motiveren op doelen en sturen op resultaten",
+            "rank": 3
+          },
+          {
+            "code": "answer-4",
+            "answer": "Inspireren, stimuleren en iedereen betrekken",
+            "rank": 4
+          },
+          {
+            "code": "answer-5",
+            "answer": "Ieder is leider binnen eigen rol, visie en spelregels worden bewaakt",
+            "rank": 5
+          }
+        ]
+      },
+      {
+        "subjectRank": "7",
+        "subject": "Besluitvorming",
+        "range": [
+          1,
+          5
+        ],
+        "answers": [
+          {
+            "code": "answer-1",
+            "answer": "De leider beslist naar eigen inschatting en goeddunken",
+            "rank": 1
+          },
+          {
+            "code": "answer-2",
+            "answer": "De leidinggevende beslist op basis van richtlijnen en procedures",
+            "rank": 2
+          },
+          {
+            "code": "answer-3",
+            "answer": "Doelen en strategie zijn bepalend voor besluitvorming",
+            "rank": 3
+          },
+          {
+            "code": "answer-4",
+            "answer": "Besluiten worden gezamenlijk genomen, de waarden van de organisatie zijn leidend",
+            "rank": 4
+          },
+          {
+            "code": "answer-5",
+            "answer": "Besluitvorming wordt zo laag mogelijk in de organisatie gelegd, gericht op realisatie van de bedoeling/purpose",
+            "rank": 5
+          }
+        ]
+      },
+      {
+        "subjectRank": "8",
+        "subject": "Personeelsontwikkeling",
+        "range": [
+          1,
+          5
+        ],
+        "answers": [
+          {
+            "code": "answer-1",
+            "answer": "De beste komt vanzelf boven drijven in de organisatie",
+            "rank": 1
+          },
+          {
+            "code": "answer-2",
+            "answer": "Opleiding en training op vaardigheden voor de functie",
+            "rank": 2
+          },
+          {
+            "code": "answer-3",
+            "answer": "Training op vaardigheden, houding en gedrag",
+            "rank": 3
+          },
+          {
+            "code": "answer-4",
+            "answer": "Persoonlijke ontwikkeling, training en coaching",
+            "rank": 4
+          },
+          {
+            "code": "answer-5",
+            "answer": "Je kiest zelf je ontwikkeling, rekening houdend met de ontwikkelingsbehoefte van jou én je organisatie",
+            "rank": 5
+          }
+        ]
+      },
+      {
+        "subjectRank": "9",
+        "subject": "Conflicthantering",
+        "range": [
+          1,
+          5
+        ],
+        "answers": [
+          {
+            "code": "answer-1",
+            "answer": "Conflicten horen erbij en moet je af en toe beslechten",
+            "rank": 1
+          },
+          {
+            "code": "answer-2",
+            "answer": "Conflicten moet je vermijden; als ze er toch zijn escaleer je naar de leidinggevende",
+            "rank": 2
+          },
+          {
+            "code": "answer-3",
+            "answer": "Bij conflicten streef je naar de meest effectieve oplossing",
+            "rank": 3
+          },
+          {
+            "code": "answer-4",
+            "answer": "Conflicten zijn pijnlijk en proberen we te vermijden, we proberen met ieders behoefte rekening te houden",
+            "rank": 4
+          },
+          {
+            "code": "answer-5",
+            "answer": "Spanningen zijn natuurlijk en bieden een kans voor ontwikkeling",
+            "rank": 5
+          }
+        ]
+      },
+      {
+        "subjectRank": "10",
+        "subject": "Bijeenkomsten",
+        "range": [
+          1,
+          5
+        ],
+        "answers": [
+          {
+            "code": "answer-1",
+            "answer": "Het gaat erom jouw ideeën er door te krijgen",
+            "rank": 1
+          },
+          {
+            "code": "answer-2",
+            "answer": "Vergaderingen gaan gestructureerd, onder leiding van de leidinggevenden",
+            "rank": 2
+          },
+          {
+            "code": "answer-3",
+            "answer": "Overleggen zijn kort en bondig, gericht op resultaten boeken",
+            "rank": 3
+          },
+          {
+            "code": "answer-4",
+            "answer": "We overleggen met elkaar om overeenstemming (consensus) te krijgen",
+            "rank": 4
+          },
+          {
+            "code": "answer-5",
+            "answer": "Het gaat om strategische reflectie en het afspreken van eerstvolgende stap (‘sense en response’)",
+            "rank": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Producten,processen en systemen",
+    "subCategory": [
+      {
+        "subjectRank": "11",
+        "subject": "Organisatiestructuur",
+        "range": [
+          1,
+          5
+        ],
+        "answers": [
+          {
+            "code": "answer-1",
+            "answer": "De leidinggevende bepaalt de taken",
+            "rank": 1
+          },
+          {
+            "code": "answer-2",
+            "answer": "Je functie bepaalt wat je mag doen, binnen een formele hiërarchie",
+            "rank": 2
+          },
+          {
+            "code": "answer-3",
+            "answer": "Een matrixstructuur met lijn- en stafafdelingen en projectteams",
+            "rank": 3
+          },
+          {
+            "code": "answer-4",
+            "answer": "Platte organisatie, met beperkt management",
+            "rank": 4
+          },
+          {
+            "code": "answer-5",
+            "answer": "Een netwerkstructuur van rollen (zonder management), die zich voortdurend aanpast",
+            "rank": 5
+          }
+        ]
+      },
+      {
+        "subjectRank": "12",
+        "subject": "Informatiestroom",
+        "range": [
+          1,
+          5
+        ],
+        "answers": [
+          {
+            "code": "answer-1",
+            "answer": "De communicatie is ad-hoc en top-down",
+            "rank": 1
+          },
+          {
+            "code": "answer-2",
+            "answer": "De communicatie is top-down en formeel gestructureerd",
+            "rank": 2
+          },
+          {
+            "code": "answer-3",
+            "answer": "Doelgericht overleggen en informatie verstrekking",
+            "rank": 3
+          },
+          {
+            "code": "answer-4",
+            "answer": "Formele én informele communicatierichtlijnen, transparantie is belangrijk",
+            "rank": 4
+          },
+          {
+            "code": "answer-5",
+            "answer": "Open netwerken van informatie, directe collegiale advisering",
+            "rank": 5
+          }
+        ]
+      },
+      {
+        "subjectRank": "13",
+        "subject": "Omgang met middelen en hulpbronnen",
+        "range": [
+          1,
+          5
+        ],
+        "answers": [
+          {
+            "code": "answer-1",
+            "answer": "We willen “koste wat kost” leveren",
+            "rank": 1
+          },
+          {
+            "code": "answer-2",
+            "answer": "Randvoorwaarden uit wet- en regelgeving en onze procedures zijn leidend",
+            "rank": 2
+          },
+          {
+            "code": "answer-3",
+            "answer": "Efficiency en effectiviteit zijn leidend",
+            "rank": 3
+          },
+          {
+            "code": "answer-4",
+            "answer": "Duurzaamheid en ketenbeheer zijn leidend",
+            "rank": 4
+          },
+          {
+            "code": "answer-5",
+            "answer": "Het gaat om slimmer inrichten vanuit perspectief van het hele systeem",
+            "rank": 5
+          }
+        ]
+      },
+      {
+        "subjectRank": "14",
+        "subject": "Beloning",
+        "range": [
+          1,
+          5
+        ],
+        "answers": [
+          {
+            "code": "answer-1",
+            "answer": "De leider bepaalt wie welke beloning krijgt",
+            "rank": 1
+          },
+          {
+            "code": "answer-2",
+            "answer": "Beloning wordt vastgesteld op basis van salarisschalen",
+            "rank": 2
+          },
+          {
+            "code": "answer-3",
+            "answer": "Beloning is gebaseerd op resultaten, je kunt bonussen/ extra’s verdienen",
+            "rank": 3
+          },
+          {
+            "code": "answer-4",
+            "answer": "Beloning is zo eerlijk mogelijk, maar we hebben het er niet veel over, het gaat vooral om waardering",
+            "rank": 4
+          },
+          {
+            "code": "answer-5",
+            "answer": "De beloningssystematiek is opnieuw met elkaar doordacht en opgezet",
+            "rank": 5
+          }
+        ]
+      },
+      {
+        "subjectRank": "15",
+        "subject": "Producten en diensten",
+        "range": [
+          1,
+          5
+        ],
+        "answers": [
+          {
+            "code": "answer-1",
+            "answer": "Maak simpele producten of diensten",
+            "rank": 1
+          },
+          {
+            "code": "answer-2",
+            "answer": "Lever producten of diensten, die gangbaar zijn",
+            "rank": 2
+          },
+          {
+            "code": "answer-3",
+            "answer": "Kom steeds met nieuwe, innovatieve producten of diensten",
+            "rank": 3
+          },
+          {
+            "code": "answer-4",
+            "answer": "Zorg voor betekenisvolle en duurzame producten of diensten",
+            "rank": 4
+          },
+          {
+            "code": "answer-5",
+            "answer": "Creëer producten of diensten, die ethisch verantwoord en wezenlijk vernieuwend zijn",
+            "rank": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cultuur, waarden,relaties",
+    "subCategory": [
+      {
+        "subjectRank": "16",
+        "subject": "Stakeholder relaties",
+        "range": [
+          1,
+          5
+        ],
+        "answers": [
+          {
+            "code": "answer-1",
+            "answer": "Ad-hoc, gericht op winst/ winnen op korte termijn",
+            "rank": 1
+          },
+          {
+            "code": "answer-2",
+            "answer": "Wij bepalen de relaties met de stakeholders, volgens vaste richtlijnen",
+            "rank": 2
+          },
+          {
+            "code": "answer-3",
+            "answer": "In de relaties met stakeholders gaat het om strategie en doelgerichtheid",
+            "rank": 3
+          },
+          {
+            "code": "answer-4",
+            "answer": "We werken samen met onze stakeholders",
+            "rank": 4
+          },
+          {
+            "code": "answer-5",
+            "answer": "In co-creatie met onze (sector) partners realiseren we een overkoepelende visie",
+            "rank": 5
+          }
+        ]
+      },
+      {
+        "subjectRank": "17",
+        "subject": "Werkhouding",
+        "range": [
+          1,
+          5
+        ],
+        "answers": [
+          {
+            "code": "answer-1",
+            "answer": "Je doet wat je opgedragen wordt",
+            "rank": 1
+          },
+          {
+            "code": "answer-2",
+            "answer": "We doen wat volgens de procedures en richtlijnen gevraagd wordt",
+            "rank": 2
+          },
+          {
+            "code": "answer-3",
+            "answer": "Je doet alles om de doelen te behalen",
+            "rank": 3
+          },
+          {
+            "code": "answer-4",
+            "answer": "We doen samen wat onze visie dient",
+            "rank": 4
+          },
+          {
+            "code": "answer-5",
+            "answer": "Ieder geeft zijn/haar specifieke bijdrage om de bedoeling (purpose) te realiseren",
+            "rank": 5
+          }
+        ]
+      },
+      {
+        "subjectRank": "18",
+        "subject": "Visie en kernwaarden",
+        "range": [
+          1,
+          5
+        ],
+        "answers": [
+          {
+            "code": "answer-1",
+            "answer": "De waarden van de leider zijn vanzelfsprekend gelijk aan de waarden van de organisatie",
+            "rank": 1
+          },
+          {
+            "code": "answer-2",
+            "answer": "Visie en kernwaarden komen vanuit de top en zijn voor middellange termijn vastgesteld",
+            "rank": 2
+          },
+          {
+            "code": "answer-3",
+            "answer": "Medewerkers leveren inpunt voor visie en kernwaarden",
+            "rank": 3
+          },
+          {
+            "code": "answer-4",
+            "answer": "Visie en kernwaarden bepalen we met elkaar en zijn de basis voor belangrijke beslissingen",
+            "rank": 4
+          },
+          {
+            "code": "answer-5",
+            "answer": "Het bestaansrecht (purpose) is helder geworden en is leidend voor ieders handelen",
+            "rank": 5
+          }
+        ]
+      },
+      {
+        "subjectRank": "19",
+        "subject": "Werkklimaat",
+        "range": [
+          1,
+          5
+        ],
+        "answers": [
+          {
+            "code": "answer-1",
+            "answer": "We houden van aanpakken en aktie",
+            "rank": 1
+          },
+          {
+            "code": "answer-2",
+            "answer": "Ieder levert haar/zijn aandeel in een goed gestructureerd geheel",
+            "rank": 2
+          },
+          {
+            "code": "answer-3",
+            "answer": "We doen wat werkt en zijn gericht op resultaatn",
+            "rank": 3
+          },
+          {
+            "code": "answer-4",
+            "answer": "We zijn gericht op plezierig met elkaar samenwerken",
+            "rank": 4
+          },
+          {
+            "code": "answer-5",
+            "answer": "We werken vanuit openheid en creativiteit",
+            "rank": 5
+          }
+        ]
+      },
+      {
+        "subjectRank": "20",
+        "subject": "Loyaliteit",
+        "range": [
+          1,
+          5
+        ],
+        "answers": [
+          {
+            "code": "answer-1",
+            "answer": "We zijn loyaal aan de leider",
+            "rank": 1
+          },
+          {
+            "code": "answer-2",
+            "answer": "We zijn loyaal aan de procedures en voorschriften van onze eenheid/afdeling",
+            "rank": 2
+          },
+          {
+            "code": "answer-3",
+            "answer": "We zijn trots en loyaal aan de organisatie",
+            "rank": 3
+          },
+          {
+            "code": "answer-4",
+            "answer": "We zijn betrokken op elkaar en onze gedeelde waarden",
+            "rank": 4
+          },
+          {
+            "code": "answer-5",
+            "answer": "We zijn betrokken op het hele systeem (omgeving, samenleving)",
+            "rank": 5
+          }
+        ]
+      }
+    ]
   }
 ]

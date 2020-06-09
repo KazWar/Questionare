@@ -11,25 +11,29 @@ Vue.config.productionTip = false
 
 // Application routes
 const routes = [
-    {
-      path: '/',
-      component: Home
-    },
-    {
-      path : '/survey',
-      component: Survey,
-      meta: { requiresAuth : false }
-    },
-    {
-      path: '/results',
-      component: Results ,
-      meta: { requiresAuth : true }
-    },
-    {
-      path: '/summary',
-      component: Summary ,
-      meta: { requiresAuth : true }
-    }
+  {
+    name: 'home',
+    path: '/',
+    component: Home
+  },
+  {
+    name: 'survey',
+    path : '/survey',
+    component: Survey,
+    meta: { requiresAuth : false }
+  },
+  {
+    name: 'results',
+    path: '/results/:company/:department',
+    meta: { requiresAuth : true },
+    component: Results
+  },
+  {
+    name: 'summary',
+    path: '/summary/:company/:department',
+    meta: { requiresAuth : true },
+    component: Summary
+  }
 ]
 
 /**
@@ -40,15 +44,15 @@ window.addEventListener('load', () => {
   const router = new VueRouter({routes})
 
   router.beforeEach((to, from, next) => {
-    if (to.matched.some((record) => record.meta.requiresAuth)) {
-      if (!Session.isLoggedIn) {
-        next('/')
+    if (to.matched.some(route => route.meta.requiresAuth)) {
+      if (Session.isLoggedIn) {
+        next();
+      } else {
+        next({ path: '/' });
       }
-    } else {
-      next()
     }
-  })
-
+    next();
+  });
 
   const app = new Vue({router, render: (h) => h(App)})
   app.$mount('#app')

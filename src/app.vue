@@ -1,24 +1,29 @@
 <script>
   import LoginDialog from './components/login-dialog.vue'
-  import { Session } from './services'
+  import Menu from './components/menu.vue'
+  import { DataService, Session } from './services'
 
   export default {
     name: 'App',
 
-    components:{
-      'login-dialog': LoginDialog
+    components: {
+      'login-dialog': LoginDialog,
+      'application-menu': Menu
     },
 
-    data() {
+    data () {
       return {
+        console,
         Session,
-        // Currently selected tab
-        tab: 'home',
+        summary:[],
         // Visibility of panels
         leftPanel: true,
         // Visibility of log in dialog
-        loginWindow : false
+        loginWindow: false
       }
+    },
+
+    computed: {
     },
 
     methods: {
@@ -28,17 +33,16 @@
 
       logout () {
         Session.logout()
+        DataService.reset()
+        this.$router.push({ path: '/' })
       },
 
       toggleLeftPanel () {
         this.leftPanel = !this.leftPanel
       }
-    },
-
-    created() {
-      console.log('Ready.')
     }
-}
+  }
+
 </script>
 
 <template>
@@ -53,7 +57,7 @@
           <q-btn dense flat round icon="menu" @click="toggleLeftPanel()" />
 
           <q-toolbar-title>
-            <img alt="Fluid logo" src="./statics/logo/Fluid_logo_Transparant.png" width="125" height="55">
+            <img alt="Fluid logo" src="assets/fluid-logo.png" width="125" height="55">
           </q-toolbar-title>
 
           <q-btn v-if="Session.isLoggedOut" class="button-log-in" @click="login()">Log in</q-btn>
@@ -62,32 +66,25 @@
       </q-header>
 
       <q-drawer show-if-above v-model="leftPanel" side="left" :width="200" bordered>
-        <q-tabs
-          v-model="tab"
-          vertical
-          class="text-black"
-        >
-          <q-route-tab name="home" icon="home" label="Home" to="/" />
-          <q-route-tab name="survey" icon="home" label="Home" to="/survey" />
-          <q-route-tab v-if="Session.isLoggedIn" name="results" icon="assignment_turned_in" label="Results" to="/results" />
-          <q-btn-dropdown v-if="Session.isLoggedIn" name="summary" flat style="width: 100%" icon="assignment" label="Summary">
-            <q-list id="dropdown-summary">
-              <q-route-tab name="level-1" icon="widgets" label="Handy model" to="/summary" />
-            </q-list>
-          </q-btn-dropdown>
-        </q-tabs>
+        <application-menu>
+        </application-menu>
       </q-drawer>
+
+      <!--
+      1. Summary starts empty = no tree is generated
+      2. If user logs in, summary is retrieved
+      3. if the user successfully logs in and there is a new retrieved summary, draw the tree
+      4. Literally no clue how to watch for the data change in an other file.
+
+      nodes prop could be generated programatically above?
+      -->
 
       <q-page-container>
         <router-view />
       </q-page-container>
 
-
-
     </q-layout>
-
   </div>
-
 </template>
 
 
@@ -107,6 +104,10 @@
   }
 
   .button-log-in{
+    background-color: whitesmoke;
+  }
+
+  .button-log-out{
     background-color: whitesmoke;
   }
 </style>
